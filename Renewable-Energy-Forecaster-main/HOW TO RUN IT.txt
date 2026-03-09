@@ -2,7 +2,7 @@
 
   Open Command Prompt or PowerShell, then run:
 
-  cd "C:\Users\Mashal\Desktop\Winter 2026 TMU (FINAL SEMESTER)\Capstone\Prototype 6.0"
+  cd 
                                                                                                                                  Or: right-click the Prototype 5.0 folder in File Explorer → Open in Terminal.
                                                                                                                                  ---
   Step 2 — Activate the virtual environment
