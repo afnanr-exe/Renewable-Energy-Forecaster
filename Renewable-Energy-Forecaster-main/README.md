@@ -3,7 +3,7 @@ Installation
 
 Code
 
-git clone https://github.com/mashal-joyaa/Renewable-Energy-Forecaster.git
+git clone https://github.com/afnanr-exe/Renewable-Energy-Forecaster.git
 
 cd Renewable-Energy-Forecaster 
 
