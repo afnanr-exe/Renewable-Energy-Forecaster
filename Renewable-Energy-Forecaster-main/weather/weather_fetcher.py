@@ -36,7 +36,7 @@ def fetch_forecast_weather(lat: float, lon: float) -> list:
         f"?latitude={lat}&longitude={lon}"
         f"&hourly={vars_str}&forecast_days=3&timezone=UTC"
     )
-    r = requests.get(url, timeout=15)
+    r = requests.get(url, timeout=150)
     r.raise_for_status()
     data = r.json()
     times  = data["hourly"]["time"]
@@ -61,7 +61,7 @@ def fetch_forecast_weather(lat: float, lon: float) -> list:
 
 def geocode_city(city_name: str):
     url = f"https://geocoding-api.open-meteo.com/v1/search?name={city_name}&count=1"
-    r = requests.get(url, timeout=15)
+    r = requests.get(url, timeout=120)
     r.raise_for_status()
     data = r.json()
     if not data.get("results"):
